@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng nhập tài khoản </title>
+    <link rel="stylesheet" href="/css/login.css">
+    <meta charset="UTF-8">
+    <link REL="SHORTCUT ICON" HREF="/logo_title/Capture.jpg">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <form action="" name="login" onsubmit="return KT()">
+        <fieldset>
+            <legend>
+                <h1>ĐĂNG NHẬP</h1>
+            </legend>
+            <label for="name">Tên đăng nhập: </label>
+            <input type="text" name="name" id="name">
+            <BR></BR>
+            <label for="password">Mật khẩu:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <input type="submit" value="Đăng nhập"><br>
+            <div class="taikhoan">
+                <a href="#">Quên mật khẩu</a>
+                <a href="/html/account.html" target="_blank">Đăng ký</a>
+            </div>
+            <div class="login-with">
+                <div class="with">
+                    <a href="" class="logo-google">
+                        <ion-icon name="logo-google" style="font-size: 45px;"></ion-icon>
+                        <p>Google</p>
+                    </a>
+                </div>
+                <div class="with">
+                    <a href="" class="logo-facebook">
+                        <ion-icon name="logo-facebook" style="font-size: 45px;"></ion-icon>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="with" class="logo-twitter">
+                    <a href="">
+                        <ion-icon name="logo-twitter" style="font-size: 45px;"></ion-icon>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+            </div>
+            <div class="return">
+                <a href="/html/index.html">Quay lại trang chủ</a>
+            </div>
+        </fieldset>
+        <script src="/js/login.js">
+            
+        </script>
+    </form>
+</body>
+
+</html>

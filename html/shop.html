@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="/css/shop.css">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <link REL="SHORTCUT ICON" HREF="/logo_title/Capture.jpg">
+    <script type="module" src="https:/unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https:/unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <img src="/logo/logo.gif" alt="" class="logo">
+            <div class="search">
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </div>
+            <div class="icon">
+                <a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-comments" aria-hidden="true"></i></a>
+            </div>
+            <div class="navigation">
+                <a href="/html/index.html">Trang chủ</a>
+                <a href="#" class="shop">Shop</a>
+                <a href="#">Đặt theo mẫu</a>
+                <a href="#">Tin tức</a>
+                <a href="#">Liên hệ</a>
+                <a style=" font-size: 25px;" href="/html/login.html"><i class="fa fa-user-circle-o"
+                    id="dang_nhap"              aria-hidden="true"></i></a>
+                <a style=" font-size: 25px;" href="#" target="_blank"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1 style="color: rgb(255, 255, 255);">Shop</h1>
+        <h2 class="main"><a href="/html/.html">Trang chủ</a><span style="font-size:25px ;color: rgb(255, 41, 41);">
+                > Sản phẩm</span></h2>
+        <div class="sap_xep">
+            <p>Sắp xếp theo</p>
+            <a style="background-color: rgb(211, 2, 2);" href="#">Tất cả</a>
+            <a href="#">Phổ Biến</a>
+            <a href="#">Mới nhất</a>
+            <a href="#">Bán Chạy</a>
+            <a href="#">Siêu Sale</a>
+            <form action="#" class="gia">
+                <select id="country" style="width: 220px" name="country">
+                    <option value="gia">Giá</option>
+                    <option value="cao-thap">Giá từ cao đến thấp</option>
+                    <option value="thap-cao">Giá từ thấp đến cao</option>
+                </select>
+            </form>
+        </div>
+        <div class="main_section">
+            <div class="bo_loc">
+                <p>Danh mục sản phẩm: </p><br>
+                <form action="#" class="danh_muc_sp">
+                    <input type="radio" id="ao_quan" name="danh_muc_sp">
+                    <label for="ao_quan">Trang phục đá bóng</label><br>
+                    <input type="radio" id="giay" name="danh_muc_sp">
+                    <label for="giau">Giày đá bóng</label><br>
+                    <input type="radio" id="ao_gio" name="danh_muc_sp">
+                    <label for="ao_gio">Áo gió</label><br>
+                    <input type="radio" id="dung_cu" name="danh_muc_sp">
+                    <label for="ao_quan">Balo/Túi</label><br>
+                    <input type="radio" id="ao_quan" name="danh_muc_sp">
+                    <label for="ao_quan">Phụ kiện</label><br>
+                </form>
+                <p>Đối tượng </p><br>
+                <form action="#" class="doi_tuong">
+                    <input type="radio" id="nam" name="doi_tuong">
+                    <label for="nam">Nam</label><br>
+                    <input type="radio" id="nu" name="doi_tuong">
+                    <label for="nu">Nữ</label><br>
+                    <input type="radio" id="tre_em" name="doi_tuong">
+                    <label for="tre_em">Trẻ em</label><br>
+                </form>
+                <p>Nơi bán: </p>
+                <form action="#" class="noi_ban">
+                    <input type="radio" id="hue" name="noi_ban">
+                    <label for="hue">Thừa Thiên Huế</label><br>
+                    <input type="radio" id="da_nang" name="noi_ban">
+                    <label for="da_nang">Đà Nẵng</label><br>
+                    <input type="radio" id="ha_noi" name="noi_ban">
+                    <label for="ha_noi">Hà Nội</label><br>
+                    <input type="radio" id="hcm" name="noi_ban">
+                    <label for="hcm">Hồ Chí Minh</label><br>
+                    <input type="radio" id="hai_phong" name="noi_ban">
+                    <label for="hai_phong">Hải Phòng</label><br>
+                    <a href="#">Xem thêm</a>
+                </form>
+                <p>Đơn vị vận chuyển: </p>
+                <form action="#" class="van_chuyen">
+                    <input type="radio" id="nhanh" name="van_chuyen">
+                    <label for="nhanh">Vận chuyển nhanh</label><br>
+                    <input type="radio" id="hoa_toc" name="van_chuyen">
+                    <label for="hoa_toc">Vận chuyển hoả tốc</label><br>
+                    <input type="radio" id="tiet_kiem" name="van_chuyen">
+                    <label for="tiet_kiem">Vận chuyển tiết kiệm</label><br>
+                </form>
+                <p>Giá: </p>
+                <p>Từ:<input type="number" name="tu" id="tu" min="1"></p>
+                <p>Đến:<input type="number" name="den" id="den" max="10000000"></p>
+            </div>
+            <div class="mohinhsp">
+                <div class="sp">
+                    <img src="/img/sản phẩm shop/274545967_947240969235501_6419751240249945622_n.jpg" alt="">
+                    <form action="#" >
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Bộ áo quần đá bóng</h3>
+                    <p class="goc">190.000đ</p>
+                    <p class="sale">150.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+                <div class="sp">
+                    <img src="/img/sản phẩm shop/274604920_947240942568837_1125513130267180274_n.jpg" alt="">
+                    <form action="/form/submit" method="post">
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Bộ áo quần đá bóng</h3>
+                    <p class="goc">200.000đ</p>
+                    <p class="sale">150.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+                <div class="sp">
+                    <img src="https:/th.bing.com/th/id/R.9b738ea0cf044cfa7de7ea28bca5c05d?rik=fE8F9GPhoTd%2fhQ&pid=ImgRaw&r=0"
+                        alt="">
+                    <form action="/form/submit" method="post">
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Balo thể thao</h3>
+                    <p class="goc">320.000đ</p>
+                    <p class="sale">250.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+                <div class="sp">
+                    <img src="/img/sản phẩm shop/280035278_2499705840227757_6303880063422113041_n.jpg" alt="">
+                    <form action="/form/submit" method="post">
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Bộ áo quần thể thao</h3>
+                    <p class="goc">120.000đ</p>
+                    <p class="sale">100.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+                <div class="sp">
+                    <img src="/img/sản phẩm shop/280103142_1718143681859055_5524678437078658557_n.jpg" alt="">
+                    <form action="/form/submit" method="post">
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Balo thể thao</h3>
+                    <p class="goc">190.000đ</p>
+                    <p class="sale">150.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+                <div class="sp">
+                    <img src="https:/th.bing.com/th/id/OIP.bUqrMFIGcAWNXRx1kBiLhgHaH3?pid=ImgDet&w=1588&h=1686&rs=1"
+                        alt="">
+                    <form action="/form/submit" method="post">
+                        <input type="checkbox" class="box" />
+                        <label for="box">
+                            <ion-icon name="heart" class="heart-outline"></ion-icon>
+                            </ion-icon>
+                        </label>
+                    </form>
+                    <h3>Áo gió </h3>
+                    <p class="goc">190.000đ</p>
+                    <p class="sale">150.000đ</p>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <ion-icon name="star" class="star"></ion-icon>
+                    <h3 class="dat">Thêm vào giỏ hàng</h3>
+                    <p style="display: inline-block;border-right: 2px solid;width: 120px;">Đã bán: 100 bộ</p>
+                    <i class="fa fa-map-marker"></i> <p style="display: inline-block;">  Đà Nẵng</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="ft">
+            <h2>Địa chỉ </h2>
+            <img src="/img/map/địa chỉ.PNG" style="padding: 0px 0 20px 20px;width:500px; height: 240px">
+        </div>
+        <div class="ft">
+            <h2>Theo dõi chúng tôi trên</h2>
+            <div class="social-icon">
+                <a href="https:/www.facebook.com/profile.php?id=100032533245790"><i class="fa fa-facebook"
+                        style="border:  2px solid;padding-top: 2px;;width: 45px;text-align:center;border-radius:10px "></i></a>
+                <a href=""><i class="fa fa-twitter"
+                        style="border:  2px solid;width: 45px;text-align:center;border-radius:10px; "></i></a>
+                <a href=""><i class="fa fa-instagram"
+                        style="border:  2px solid;width: 45px;text-align:center;border-radius:10px "></i></a>
+                <a href=""><i class="fa fa-youtube"
+                        style="border:  2px solid;width: 45px;text-align:center;border-radius:10px "></i></a>
+            </div>
+            <ul class="submenu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Nam</a></li>
+                <li><a href="#">Nữ</a></li>
+                <li><a href="#">Phụ kiện</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="ft">
+            <h2>Thông Tin Liên Hệ</h2>
+            <div class="ftright">
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker"></i> Thừa Thiên Huế</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone"></i> 0335268591</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope"></i> <a href="#">caonguyenvu191@gmail.com</a></span>
+                    </li>
+                    <li>
+                        <form class="form">
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Nhận xét"
+                                style="font-size: 20px"></textarea>
+                            <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
+                            <input type="submit" value="Gửi">
+                        </form>
+                    </li>
+            </div>
+            </ul>
+        </div>
+       
+    </div>
+    <div class="end">Bản quyền thuộc về Vũ &copy;All rights reserved </div>
+</body>
+
+</html>

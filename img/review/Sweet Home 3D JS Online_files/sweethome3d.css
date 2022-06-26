@@ -1,0 +1,457 @@
+body {
+	margin: 0px;
+	background-color: #FFFFFF;
+	background-image: url("/images/backg.jpg");
+}
+p {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+blockquote {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	margin-left: 16px;
+	margin-right: 5px;
+}
+li {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	margin-right: 5px;
+}
+td {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+thead td {
+	font-weight: 200;
+}
+h1 {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	margin-bottom: 2px;
+}
+h3 {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+h4 {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+pre {
+	border-left-style: solid;
+	border-left-color: #666666;
+	padding-left: 10px;
+	background-color: #DDDDDD;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* font-family: "Lucida Sans Typewriter", Courier, mono; */
+}
+tt {
+	/* font-family: "Lucida Sans Typewriter", Courier, mono; */
+}
+code {
+	/* font-family: "Lucida Sans Typewriter", Courier, mono; */
+}
+a:link, a:visited, a:active {
+	color: #3B5DA1;
+}
+a:hover {
+	color: orange;
+}
+.viewerComponent  {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+.lightborder {
+	border: 1px solid #CCCCCC;
+}
+.thinRuler {
+	width: 40%;
+	margin: 0px;
+	size: 1px;
+}
+.spaced {
+	margin-bottom: 3px;
+}
+.li12 {
+	margin-top: 12px;
+}
+.largespace {
+	margin-top: 24px;
+}
+.codeComment {
+	color: #009966;
+}
+.propertyKey {
+	color: #0000CC;
+}
+.specialValue {
+	color: #990033;
+}
+.modelCell {
+	width: 140;
+	text-align: center;
+	vertical-align: top;
+}
+.modelDefault {
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	width: 128px; 
+	height: 128px; 
+/*	padding-bottom: 0.4em; */
+}
+.modelRecent {
+	border: 2px solid #AA0000;
+	background: #FFFFFF;
+	width: 128px; 
+	height: 128px; 
+}
+.modelReleased {
+	border: 2px solid #00AA00;
+	background: #FFFFFF;
+	width: 128px; 
+	height: 128px; 
+}
+.modelSize {
+	border: 1px solid #CCCCCC;
+	font-size: 75%;
+ 	background: white; 
+	position: relative;
+	top: -0.45em;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: -0.45em; 
+	padding: 1px;
+}
+.modelLicenseAndSize {
+	border: 1px solid #CCCCCC;
+	font-size: 75%;
+ 	background: white; 
+	position: relative;
+	top: -0.45em;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: -0.45em; 
+	padding: 1px;
+}
+.modelName {
+	padding-top: 2px;
+	padding-bottom: 12px;
+}
+.modelLicenseLegend {
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	margin-top: 20px;
+	font-size: 80%;
+}
+.logo {
+	padding: 5px; 
+	border: 1px lightgray solid;
+	background-color: white; 
+	text-align: center;
+}
+
+.headerItem {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	font-weight: normal;
+	text-shadow: 1px 1px #EFECE4, -1px -1px #CAC8C1;	  
+	color: #000000;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+a.headerItem:link, a.headerItem:visited, a.headerItem:active {
+	color: #000000;
+	text-decoration: none;
+	transition: all 0.25s ease-out;	
+}
+a.headerItem:hover {
+	color: orange;
+	text-decoration: underline;
+	text-shadow: none;	  
+}
+
+.menu {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	font-weight: 400;
+	text-shadow: 1px 1px #5B8EE6, -1px -1px #4B75BD;	  
+	margin-left: 2px;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	background: url("/images/decoration/menuBackground.gif") #446AAC repeat-x;
+	transition: all 0.25s ease-out;
+}
+a.menu:link, a.menu:visited, a.menu:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.menu:hover {
+	color: orange;
+	text-decoration: underline;
+	text-shadow: none;	  
+}
+.menuItem {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	margin-left: 1px;
+	margin-top: 2px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	color: #404040;
+	text-decoration: none;
+	padding: 0px;
+	line-height: 110%;
+	transition: all 0.25s ease-out;
+}
+a.menuItem:link, a.menuItem:visited, a.menuItem:active {
+	color: #404040;
+	text-decoration: none;
+}
+a.menuItem:hover {
+	color: orange;
+	text-decoration: underline;
+}
+.menuCell {
+	padding: 5px;
+}
+.printerCell {
+	padding-top: 5px; 
+	padding-right: 2px;
+}
+.translationsCell {
+	padding-top: 5px; 
+	padding-right: 5px;
+}
+.mainCell {
+	padding-top: 8px; 
+	padding-right: 5px; 
+	padding-bottom: 5px;
+}
+.mainFooter {
+	margin-top: 16px;
+}
+.translator {
+	font-family:  sans-serif;
+}
+.larger {
+	font-size: 1.4em;
+}
+#owl {
+	width: 500px;
+	margin: 0 auto; 
+	margin-top: 15; 
+	text-align: center; 
+	overflow: visible; 
+	display: none;
+}
+#owl video {
+	width: 500px;
+}
+#owl img {
+	height: 266px;
+}
+#defaultImage img {
+	height: 266px;
+}
+#SweetHome3DSmallScreenMenuIcon {
+	background-image: url("/images/menuIcon.png");
+	width: 25px;
+	height: 22px;
+}
+#SweetHome3DSmallScreenMenuIcon:hover {
+	background-image: url("/images/menuIconHover.png");
+	cursor:	pointer;
+}
+#SweetHome3DSmallScreenMenuIconCell {
+	vertical-align: top;
+	padding-top: 28px;
+	padding-left: 15px;
+	padding-right: 10px;
+	display: none;
+}
+#SweetHome3DLogoSmallScreen {
+	display:none;
+}
+
+/* Responsiveness management */
+@media only screen and (max-width: 860px) {	
+	#SweetHome3DSmallScreenMenuIconCell {
+		display: inline-block;
+	}
+	#SweetHome3DLogo {
+		display: none;
+	}
+	#SweetHome3DLogoSmallScreen {
+		display:block;
+	}
+	#SweetHome3DSearch {
+		display: none;
+	}
+	#SweetHome3DMenu {
+		display: none;
+	}
+	#facebook {
+		display: none;
+	}
+	#forumLoginInlineForm {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 860px) and (max-width: 1024px) {	
+	#SweetHome3DSmallScreenMenuIconCell {
+		display: inline-block;
+	}
+	#SweetHome3DSearch {
+		display: none;
+	}	
+	#SweetHome3DMenu {
+		display: none;
+	}
+	#facebook {
+		display: none;
+	}
+}
+
+@media (hover: none), (pointer: coarse) {
+	#SweetHome3DSmallScreenMenuIcon {
+		transform:scale(1.25, 1.25);
+	}
+	#SweetHome3DSmallScreenMenuIconCell {
+		padding-right: 15px;
+	}
+	body {
+		font-size: 14px;
+	}
+	.sidebarItemTitle * {
+		font-size: 17px;
+	}
+	.sidebarItemBody * {
+		font-size: 15px;
+ 		line-height: 16px; 
+	}
+ 	.sidebarTagCloud * { 
+ 		line-height: 14px; 
+ 	} 
+	.headerItem * {
+		font-size: 1.4em;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.menuItem {
+		font-size: 1.15em;
+		padding-left: 2px;
+	}
+	.menu {
+		font-size: 1.2em;
+	}
+	#searchIcon  {
+		width: 28px;
+		padding-right: 10px;
+		padding-left: 5px;
+	}
+	#owl {
+		width: 640px !important;
+	}
+	#owl video {
+		width: 640px;
+	}
+	#owl img {
+		height: 340px;
+	}
+	#defaultImage img {
+		height: 340px;
+	}
+	.galleryImage {
+		transform: scale(1.25,1.25);
+		margin-top: 10px;
+		margin-bottom: 25px;
+	}
+	.translationFlag {
+		transform: scale(1.25,1.25);
+		margin: 4.5px;
+	}
+	.menuItemTranslationFlag {
+		width: 22px;
+	}
+	.larger {
+		font-size: 2em;
+	}
+	
+	@media only screen 
+	  and (min-device-width: 320px) 
+	  and (max-device-width: 812px) 
+	  and (-webkit-min-device-pixel-ratio: 2) {  
+		#SweetHome3DSmallScreenMenuIcon {
+			transform:scale(2,2);
+		}
+		#SweetHome3DSmallScreenMenuIconCell {
+			padding-left: 40px;
+			padding-right: 35px;
+			display: inline-block;
+		}
+		#SweetHome3DLogo {
+			display: none;
+		}
+		#SweetHome3DLogoSmallScreen {
+			display:block;
+		}
+		#SweetHome3DSearch {
+			display: none;
+		}
+		#SweetHome3DMenu {
+			display: none;
+		}
+		#facebook {
+			display: none;
+		}	
+		#forumLoginInlineForm {
+			display: none;
+		}
+		html * {
+			font-size: 24px;
+		}
+		h1 {
+			font-size: 1.3em;
+		}
+		h3 {
+			font-size: 1.1em;
+		}
+		.menuItem {
+			padding: 2px 4px 2px 4px;		
+		}
+		.menu {
+			padding: 1.5px 4px 1.5px 4px;
+		}
+		#searchIcon  {
+			width: 32px;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		#owl {
+			width: 750px !important;
+		}
+		#owl video {
+			width: 750px;
+		}
+		#owl img {
+			height: 399px;
+		}
+		#defaultImage img {
+			height: 399px;
+		}
+		.galleryImage {
+			transform: scale(1.5,1.5);
+			margin-top: 15px;
+			margin-bottom: 35px;
+		}
+		.translationFlag {
+			transform: scale(1.5,1.5);
+			margin: 5.5px;
+		}
+		.menuItemTranslationFlag {
+			width: 35px;
+		}
+		.larger {
+			font-size: 1.4em;
+		}
+	}
+}

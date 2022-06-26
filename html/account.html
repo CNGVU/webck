@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng ký</title>
+    <link REL="SHORTCUT ICON" HREF="/logo_title/Capture.jpg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/account.css">
+</head>
+
+<body>
+    <form action="" name="account" onsubmit="return KT()">
+        <fieldset>
+            <legend>
+                <h1>ĐĂNG KÝ</h1>
+            </legend>
+            <label for="name"> Họ: </label>
+            <input type="text" name="ho" id="ho">
+            <br>
+            <label for="ten">Tên: </label>
+            <input type="text" name="ten" id="ten">
+            <br>
+            <label for="ngsinh">Ngày sinh: </label>
+            <input type="date" name="ngsinh" id="ngsinh" max="2003-12-31">
+            <br>
+            <label for="sdt">Số điện thoại: </label>
+            <input type="number" name="sdt" id="sdt" placeholder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Mật khẩu: </label>
+            <input type="password" name="password" id="password">
+            <br>
+            <input href="/vu/html/index.html" type="submit" value="Đăng ký"><br>
+        </fieldset>
+        <script src="/vu/js/account.js">
+            
+        </script>
+    </form>
+</body>
+
+</html>
